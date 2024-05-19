@@ -16,8 +16,7 @@ import { AngularMaterialModule } from './angular-material/angular-material.modul
     BrowserModule,
     AppRoutingModule,
     ComponentsModule,
-    AngularMaterialModule
-
+    AngularMaterialModule,
   ],
   providers: [
     provideAnimationsAsync()
