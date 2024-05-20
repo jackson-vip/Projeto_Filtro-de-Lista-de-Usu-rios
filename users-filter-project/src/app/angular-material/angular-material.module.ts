@@ -3,15 +3,15 @@ import { NgModule } from "@angular/core"
 // providers
 import { provideNativeDateAdapter } from '@angular/material/core';
 
-import { MatIconModule } from '@angular/material/icon';
-import { MatListModule } from "@angular/material/list";
-import { MatInputModule } from '@angular/material/input';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatDividerModule } from "@angular/material/divider";
 import { MatButtonModule } from '@angular/material/button';
 import { MatSelectModule } from '@angular/material/select';
-import { MatDividerModule } from "@angular/material/divider";
-import { MatFormFieldModule } from '@angular/material/form-field';
-import { MatDatepickerModule } from '@angular/material/datepicker';
-
+import { MatTableModule } from '@angular/material/table';
+import { MatInputModule } from '@angular/material/input';
+import { MatIconModule } from '@angular/material/icon';
+import { MatListModule } from "@angular/material/list";
 
 @NgModule ({
   imports: [
@@ -20,6 +20,7 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
     MatDividerModule,
     MatButtonModule,
     MatSelectModule,
+    MatTableModule,
     MatInputModule,
     MatIconModule,
     MatListModule,
@@ -29,6 +30,7 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
     MatFormFieldModule,
     MatDividerModule,
     MatSelectModule,
+    MatTableModule,
     MatButtonModule,
     MatInputModule,
     MatIconModule,
