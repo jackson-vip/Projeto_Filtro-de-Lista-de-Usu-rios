@@ -7,23 +7,25 @@ import { UserDetailsComponent } from './user-details/user-details.component';
 import { UsersListComponent } from './users-list/users-list.component';
 import { FilterComponent } from './filter/filter.component';
 import { CommonModule } from "@angular/common";
+import { PipesModule } from "../pipes/pipes.module";
 
 @NgModule({
   declarations:[
     UserDetailsComponent,
-    FilterComponent,
     UsersListComponent,
+    FilterComponent,
   ],
   imports:[
     AngularMaterialModule,
     ReactiveFormsModule,
     CommonModule,
     FormsModule,
+    PipesModule
   ],
   exports:[
     UserDetailsComponent,
-    FilterComponent,
     UsersListComponent,
+    FilterComponent,
   ]
 })
 
