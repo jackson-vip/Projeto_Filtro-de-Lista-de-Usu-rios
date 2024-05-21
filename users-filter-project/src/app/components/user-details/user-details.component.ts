@@ -1,6 +1,5 @@
-import { Component } from '@angular/core';
-import {MatListModule} from '@angular/material/list';
-
+import { Component, Input } from '@angular/core';
+import { IUser } from '../../interfaces/user/user.interface';
 @Component({
   selector: 'app-user-details',
   templateUrl: './user-details.component.html',
@@ -8,4 +7,5 @@ import {MatListModule} from '@angular/material/list';
 })
 export class UserDetailsComponent {
 
+  @Input({ required: true }) user : IUser = {} as IUser;
 }
